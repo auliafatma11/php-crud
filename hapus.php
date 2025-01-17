@@ -15,10 +15,10 @@ if(mysqli_affected_rows($koneksi)>0){
 }
 ?>
 
-<fieldset style="width:20%">
+<!-- <fieldset style="width:20%">
     <legend>Hapus Siswa</legend>
     <form action="" method="get">
         <input type="number" name="id" id="id" required>
         <input type="submit" value="Hapus">
     </form>
-</fieldset>
+</fieldset> -->
