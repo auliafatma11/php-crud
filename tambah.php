@@ -8,7 +8,7 @@
 
         <p>Kelas</p>
         <select name="kelas" id="kelas" required>
-            <option value="">- Pilih Kelas - </option>
+            <option value=""> - Pilih Kelas - </option>
             <option value="10">10</option>
             <option value="11">11</option>
             <option value="12">12</option>

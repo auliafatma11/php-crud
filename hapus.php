@@ -6,7 +6,7 @@ if(isset($_GET['id'])){
     $query = "DELETE FROM siswa WHERE id = '$id'";
     $hasil = mysqli_query($koneksi, $query);
 if(mysqli_affected_rows($koneksi)>0){
-    echo "Berhasil mengapus data";
+    echo "Berhasil menghapus data";
     echo "<meta http-equiv='refresh' content='1, url=index.php'>";
 }else{
     echo "Gagal menghapus data";
